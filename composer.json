@@ -1,10 +1,10 @@
 {
-  "name": "Stene3/moovrelocator",
-  "version": "master",
-  "autoload": {
-    "psr-4": {
-      "Moovrelocator\\": "./lib"
-    }
-  }
+	"name": "stene3/moovrelocator",
+	"type": "library",
+	"autoload": {
+		"psr-4": {
+			"Moovrelocator\\": "./lib"
+		}
+	}
 }
 
