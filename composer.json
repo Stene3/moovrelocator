@@ -2,8 +2,8 @@
   "name": "Stene3/moovrelocator",
   "version": "master",
   "autoload": {
-    "psr-0" : {
-      "moov_" : "./"
+    "psr-4": {
+      "Moovrelocator\\": "./lib"
     }
   }
 }
