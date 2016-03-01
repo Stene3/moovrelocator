@@ -2,9 +2,9 @@
 
 namespace Moovrelocator;
 
-use Utils\Atom;
-use Utils\Bytearray;
-use Utils\Transform;
+use Moovrelocator\Utils\Atom;
+use Moovrelocator\Utils\Bytearray;
+use Moovrelocator\Utils\Transform;
 
 /**
  * Moovrelocator
@@ -78,7 +78,7 @@ use Utils\Transform;
  * @see        -
  * @since      File available since Release 0.1
  */
-class Moovrelocator
+class Relocator
 {
     /**
      * holds the singleton instance of this class
