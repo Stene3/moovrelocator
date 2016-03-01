@@ -2,8 +2,6 @@
 
 namespace Moovrelocator;
 
-/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
-
 /**
  * Moovrelocator - Atom class
  *
@@ -35,24 +33,6 @@ namespace Moovrelocator;
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  * Please feel free to contact us via e-mail: phpfluesterer@googlemail.com
- *
- * @category   Moovrelocator
- * @package    Moovrelocator_Lib
- * @subpackage Moovrelocator_Lib_Atom
- * @author     Benjamin Carl <phpfluesterer@googlemail.com>
- * @copyright  2009 Benjamin Carl
- * @license    http://www.opensource.org/licenses/bsd-license.php The BSD License
- * @version    SVN: $Id$
- * @link       http://www.benjamin-carl.de
- * @see        -
- * @since      File available since Release 1.0.0
- */
-
-/**
- * Moovrelocator - Atom class
- *
- * MOOV Relocator is a well documented small library written in PHP to relocate (or move)
- * the MOOV-Atom of MP4-Files from the end to the beginning of a file.
  *
  * @category   Moovrelocator
  * @package    Moovrelocator_Lib
@@ -264,5 +244,3 @@ class Atom
         return '[type: ' . $this->_type . ',size: ' . $this->_size . ',offset: ' . $this->_offset . ']';
     }	
 }
-
-?>

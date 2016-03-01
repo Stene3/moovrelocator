@@ -33,15 +33,6 @@ namespace Moovrelocator;
  * POSSIBILITY OF SUCH DAMAGE.
  *
  * @package   php-reader
- * @copyright Copyright (c) 2006-2009 The PHP Reader Project Workgroup
- * @license   http://code.google.com/p/php-reader/wiki/License New BSD License
- * @version   $Id$
- */
-
-/**
- * An utility class to perform simple byte transformations on data.
- *
- * @package   php-reader
  * @author    Sven Vollbehr <svollbehr@gmail.com>
  * @author    Ryan Butterfield <buttza@gmail.com>
  * @copyright Copyright (c) 2006-2009 The PHP Reader Project Workgroup

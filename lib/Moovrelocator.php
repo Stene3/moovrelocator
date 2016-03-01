@@ -2,10 +2,11 @@
 
 namespace Moovrelocator;
 
-/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
-
 /**
  * Moovrelocator
+ *
+ * MOOV Relocator is a well documented small library written in PHP to relocate (or move)
+ * the MOOV-Atom of MP4-Files from the end to the beginning of a file.
  *
  * In H.264-based video formats (mp4, m4v) the metadata is called a "moov atom".
  * The moov atom is a part of the file that holds the index information for the
@@ -61,36 +62,6 @@ namespace Moovrelocator;
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  * Please feel free to contact us via e-mail: phpfluesterer@googlemail.com
- *
- * @category   Moovrelocator
- * @package    Moovrelocator_Lib
- * @subpackage Moovrelocator_Lib_Base
- * @author     Benjamin Carl <phpfluesterer@googlemail.com>
- * @copyright  2009 - 2011 Benjamin Carl
- * @license    http://www.opensource.org/licenses/bsd-license.php The BSD License
- * @version    SVN: $Id$
- * @link       http://www.benjamin-carl.de
- * @see        -
- * @since      File available since Release 0.1
- */
-
-// get absolute path to this lib
-define('PATH_MOOVRELOCATOR', str_replace($_SERVER['DOCUMENT_ROOT'], "", dirname(realpath(__FILE__))).DIRECTORY_SEPARATOR);
-
-// atom poc class
-require_once PATH_MOOVRELOCATOR.'atom'.DIRECTORY_SEPARATOR.'Atom.class.php';
-
-// bytearray to operate direct on bytes in memory just to simulate Adobe's AS3 Bytearray
-require_once PATH_MOOVRELOCATOR.'bytes'.DIRECTORY_SEPARATOR.'Bytearray.class.php';
-
-// transform (taken from php-reader)
-require_once PATH_MOOVRELOCATOR.'bytes'.DIRECTORY_SEPARATOR.'Transform.class.php';
-
-/**
- * Moovrelocator
- *
- * MOOV Relocator is a well documented small library written in PHP to relocate (or move)
- * the MOOV-Atom of MP4-Files from the end to the beginning of a file.
  *
  * @category   Moovrelocator
  * @package    Moovrelocator_Lib
@@ -815,5 +786,3 @@ class Moovrelocator
         $this->_reset();
     }
 }
-
-?>
