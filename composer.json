@@ -1,0 +1,10 @@
+{
+  "name": "Stene3/moovrelocator",
+  "version": "master",
+  "autoload": {
+    "psr-0" : {
+      "moov_" : "./"
+    }
+  }
+}
+
