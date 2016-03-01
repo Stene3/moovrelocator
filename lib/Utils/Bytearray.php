@@ -1,6 +1,6 @@
 <?php
 
-namespace Moovrelocator;
+namespace Moovrelocator\Utils;
 
 /**
  * Moovrelocator - Bytearray class - holds bytes

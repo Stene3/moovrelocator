@@ -2,6 +2,10 @@
 
 namespace Moovrelocator;
 
+use Utils\Atom;
+use Utils\Bytearray;
+use Utils\Transform;
+
 /**
  * Moovrelocator
  *
