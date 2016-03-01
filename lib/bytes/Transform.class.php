@@ -1,4 +1,7 @@
 <?php
+
+namespace Moovrelocator;
+
 /**
  * PHP Reader Library
  *
